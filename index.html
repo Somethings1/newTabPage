@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New tab</title>
+
+    <!-- All js and css content are minified. If you're using VSC, just press Alt+Shift+F to beautify them -->
+    <style class="basic">
+        @font-face{font-family:myFont;src:url(Quirlycues.ttf)}button,input,textarea{outline:0}*{margin:0;padding:0;font-family:verdana;font-weight:lighter}.container{width:100%;height:100%}.footer,.header,.main{display:flex;align-items:center;justify-content:center;flex-direction:column}.header,.main{min-height:200px}.error{position:fixed;width:100%;height:100%;font-size:3rem;text-align:center;background:#fff;font-family:"Comic Sans MS";display:flex;align-items:center}
+    </style>
+    <style class="header">
+        form{width:50%;height:auto;font-size:16px}h1{font-size:6vw;margin:50px 0;font-family:myFont}.form-control{width:100%;display:flex;overflow:hidden;font-size:16px;}#input,#submit{padding:10px;box-sizing:border-box;font-size:inherit}#input{flex-basis:80%;border:2px solid #000;border-bottom-left-radius:5px;border-top-left-radius:5px;}#submit{flex-basis:20%;border:2px solid #000;border-left:none;border-bottom-right-radius:5px;border-top-right-radius:5px;background-color:#fff;cursor:pointer;transition:.4s ease}#submit:hover{letter-spacing:2px}
+    </style>
+    <style class="main">
+        .des,.img{transition:.4s ease}.row{padding:30px;box-sizing:border-box;display:flex;justify-content:center;width:100%;flex-wrap:wrap}.img{width:70px;height:70px;border-radius:15px;border:2px solid #000;margin:20px 50px;-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.47);-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.47);box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.47);background:#fff}.des{text-decoration-color:transparent;color:#000;display:block;text-align:center;font-weight:700;font-family:"Comic Sans MS";letter-spacing:1px}.des:hover{color:orange}.img:hover{border-color:orange}.box{width:auto;}
+    </style>
+    <style class="responsive">
+        @media only screen and (max-width:1000px){h1{font-size:7vw}form{width:70%}}@media only screen and (max-width:750px){h1{font-size:10vw}}@media only screen and (max-width:460px){.error{display:block}}@media only screen and (min-width:461px){.error{display:none}}
+    </style>
+    <script>
+        search=()=>{window.location="https://google.com/search?q="+encodeURI(document.getElementById("input").value);return false;}
+    </script>
+</head>
+
+<body>
+    <div class="error">Your screen resolution is not supported. Sorry for the inconvenience.</div>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome back, master...</h1>
+            <form class="search-box" id="search-box" onsubmit="return search()">
+                <div class="form-control">
+                    <input type="text" id="input" placeholder="Search something...">
+                    <button type="submit" id="submit">Search</button>
+                </div>
+            </form>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="box">
+                    <a href="https://facebook.com">
+                        <img src="fb.png" alt="Facebook.com" class="img">
+                    </a>
+                    <a href="https://facebook.com" class="des">Facebook</a>
+                </div>
+                <div class="box">
+                    <a href="https://youtube.com">
+                        <img src="yt.png" alt="Youtube.com" class="img">
+                    </a>
+                    <a href="https://youtube.com" class="des">Youtube</a>
+                </div>
+                <div class="box">
+                    <a href="https://instagram.com">
+                        <img src="isg.png" alt="Instagram.com" class="img">
+                    </a>
+                    <a href="https://instagram.com" class="des">Instagram</a>
+                </div>
+                <div class="box">
+                    <a href="https://twitter.com">
+                        <img src="tt.png" alt="Twitter.com" class="img">
+                    </a>
+                    <a href="https://twitter.com" class="des">Twitter</a>
+                </div>
+                <div class="box">
+                    <a href="https://linkedin.com">
+                        <img src="lki.png" alt="LinkedIn.com" class="img">
+                    </a>
+                    <a href="https://linkedin.com" class="des">LinkedIn</a>
+                </div>
+                <div class="box">
+                    <a href="https://github.com">
+                        <img src="gh.png" alt="Github.com" class="img">
+                    </a>
+                    <a href="https://github.com" class="des">Github</a>
+                </div>
+                <div class="box">
+                    <a href="https://stackoverflow.com">
+                        <img src="sof.png" alt="Stackoverflow.com" class="img">
+                    </a>
+                    <a href="https://stackoverflow.com" class="des">Stack Overflow</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <a href="https://quan-cam.com">
+                        <img src="qc.png" alt="Quan-cam.com" class="img">
+                    </a>
+                    <a href="https://quancam.com" class="des">Quan cam blog</a>
+                </div>
+                <div class="box">
+                    <a href="https://thefullsnack.com">
+                        <img src="tfs.png" alt="TheFullSnack.com" class="img">
+                    </a>
+                    <a href="https://thefullsnack.com" class="des">The full snack blog</a>
+                </div>
+                <div class="box">
+                    <a href="https://toidicodedao.com">
+                        <img src="tdcd.png" alt="ToiDiCodeDao.com" class="img">
+                    </a>
+                    <a href="https://toidicodedao.com" class="des">Toi di code dao</a>
+                </div>
+                <div class="box">
+                    <a href="https://techtalk.vn">
+                        <img src="ttk.png" alt="TechTalk.vn" class="img">
+                    </a>
+                    <a href="https://techtalk.vn" class="des">Tech talks</a>
+                </div>
+                <div class="box">
+                    <a href="https://thehackernews.com">
+                        <img src="thkn.png" alt="TheHackerNews.com" class="img">
+                    </a>
+                    <a href="https://thehackernews.com" class="des">The hacker news</a>
+                </div>
+                <div class="box">
+                    <a href="https://mail.google.com">
+                        <img src="gm.png" alt="Mail.Google.com" class="img">
+                    </a>
+                    <a href="https://mail.google.com" class="des">Gmail</a>
+                </div>
+                <div class="box">
+                    <a href="https://drive.google.com">
+                        <img src="dr.png" alt="Drive.Google.com" class="img">
+                    </a>
+                    <a href="https://drive.google.com" class="des">Google drive</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p style="color: grey;font-size: 10px;">Designed and coded by Nguyen Trung Long. 02/05/2018</p>
+        </div>
+    </div>
+    <script>
+        let background=["doodles","tic-tac-toe","geometry2","weather","sakura","food","restaurant","school"].map(c=>c+".png");setByRandom=()=>{let currentBackground=background[Math.floor(Math.random()*background.length)];document.body.style.backgroundImage="url('"+currentBackground+"')"};setByDatetime=()=>{let date=new Date();let currentBackground=background[date.getSeconds()%background.length];document.body.style.backgroundImage="url('"+currentBackground+"')"};setByDatetime()
+    </script>
+</body>
+
+</html>

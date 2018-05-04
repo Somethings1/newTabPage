@@ -10,7 +10,7 @@ Coded and designed by Nguyen Trung Long.
 ### Only when you're using chrome or cent (or some browser that allow you to create a specific URL for new tabs)
 - Download and extract or clone this project, save it to D drive
 - Go to settings page of your browser. Search for "new tab", then find the "New tab page" section
-- One the section, find "Use custom URL" and activate the check box
+- On the section, find "Use custom URL" and activate the check box
 - Paste this to the input on the right of the check box "file:///D:/newTabPage/index.html"
 - Enjoy it!
 ## Apps used when creating:

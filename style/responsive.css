@@ -1,0 +1,26 @@
+@media only screen and (max-width:1000px) {
+    h1 {
+        font-size: 7vw
+    }
+    form {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width:750px) {
+    h1 {
+        font-size: 10vw
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .error {
+        display: block
+    }
+}
+
+@media only screen and (min-width:461px) {
+    .error {
+        display: none
+    }
+}

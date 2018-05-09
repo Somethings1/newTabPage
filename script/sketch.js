@@ -10,4 +10,19 @@ setByDatetime = () => {
     let date = new Date();
     let currentBackground = background[date.getSeconds() % background.length];document.body.style.backgroundImage = "url('" + currentBackground + "')"
 };
-setByDatetime()
+setByDatetime();
+showGuildLine = () => {
+    document.getElementById("guild-line").style.display = "flex";
+}
+hideGuildLine = () => {
+    document.getElementById("guild-line").style.display = "none";
+}
+document.onkeydown = event => {
+    event = (event || window.event);
+    if (event.keyCode === 77 && event.altKey) {
+        let elem = document.getElementById("hide");
+        let style = window.getComputedStyle(elem).getPropertyValue("display");
+        elem.style.display = style == "flex" ? "none" : "flex";
+        return false;
+    }
+}

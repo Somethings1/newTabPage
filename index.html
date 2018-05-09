@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New tab</title>
-
-    <!-- All js and css content are minified. If you're using VSC, just press Alt+Shift+F to beautify them -->
     <link rel="stylesheet" href="style/basic.css">
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/guild-line.css">
     <link rel="stylesheet" href="style/responsive.css">
 </head>
 
@@ -114,9 +113,105 @@
                     <a href="https://drive.google.com" class="des">Google drive</a>
                 </div>
             </div>
+            <div class="row" id="hide">
+                <h1>Discover more...</h1>
+                <div class="col">
+                    <h2>Blogs</h2>
+                    <ul>
+                        <li>
+                            <a href="https://thefullsnack.com">The full snack</a>
+                        </li>
+                        <li>
+                            <a href="https://toidicodedao.com">Toi di code dao</a>
+                        </li>
+                        <li>
+                            <a href="https://quan-cam.com">Quan cam blog</a>
+                        </li>
+                        <li>
+                            <a href="https://vnhacker.blogspot.com">Thai's blog</a>
+                        </li>
+                        <li>
+                            <a href="https://5kbps.io">5 Kilobytes per second</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Entertainments</h2>
+                    <ul>
+                        <li>
+                            <a href="https://nettruyen.com">Nettruyen</a>
+                        </li>
+                        <li>
+                            <a href="https://horrorfc.net">Horror FC</a>
+                        </li>
+                        <li>
+                            <a href="https://animevsub.tv">Animevsub</a>
+                        </li>
+                        <li>
+                            <a href="https://vuighe.net">Vuighe</a>
+                        </li>
+                        <li>
+                            <a href="https://anime47.com">Anime47</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>News</h2>
+                    <ul>
+                        <li>
+                            <a href="https://techtalk.vn">Tech talks</a>
+                        </li>
+                        <li>
+                            <a href="https://thehackernews.com">The hacker news</a>
+                        </li>
+                        <li>
+                            <a href="https://topdev.vn">Top dev</a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Works</h2>
+                    <ul>
+                        <li>
+                            <a href="https://mail.google.com">Gmail</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com">Drive</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com">Stack Overflow</a>
+                        </li>
+                        <li>
+                            <a href="https://w3schools.com">W3Schools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="footer">
             <p style="color: grey;font-size: 10px;">Designed and coded by Nguyen Trung Long. 02/05/2018</p>
+        </div>
+        <div class="info" onclick="showGuildLine()"></div>
+        <div class="guild-line" id="guild-line" onclick="hideGuildLine()">
+            <div class="content" id="content">
+                <h2 style="font-size: 2.5rem; text-align: center;">How to use?</h2>
+                <p style="font-size: 10px;color: grey">This is a basic new-tab page that I created to be used instead of the old new tab page in Cent Browser (it
+                    was too ugly). Change this context if you don't wanna see it </p>
+                <p>- Use this like every other new tab page</p>
+                <p>- Hidden feature: press the Alt + M key to expand the hidden menu (that was created mostly for Vietnamese)</p>
+                <button class="button">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
     <script src="script/sketch.js"></script>

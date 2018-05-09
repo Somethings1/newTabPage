@@ -7,6 +7,10 @@
     font-family: dakto;
     src: url(../Fonts/DAKTO.ttf)
 }
+@font-face {
+    font-family: starzy;
+    src: url(../Fonts/Starzy.ttf)
+}
 
 button,
 input,
@@ -49,5 +53,24 @@ textarea {
     background: #fff;
     font-family: "Comic Sans MS";
     display: flex;
-    align-items: center
+    align-items: center;
+    z-index: 999;
+}
+.button {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.button:hover {
+    letter-spacing: 3px;
+}
+::-webkit-scrollbar {
+    display: none;
 }

@@ -11,6 +11,9 @@
     h1 {
         font-size: 10vw
     }
+    #content {
+        width: 70%!important;
+    }
 }
 
 @media only screen and (max-width:460px) {

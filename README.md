@@ -8,11 +8,13 @@ Coded and designed by Nguyen Trung Long.
  The new tab page in Cent Browser makes me fell very bad. Although I can add a specific URLs such as google.com, what will happen if I don't have the Internet. So I'd want to create an offline page
 ## How can I use this?
 ### Only when you're using chrome or cent (or some browser that allow you to create a specific URL for new tabs)
-- Download and extract or clone this project, save it to D drive
-- Go to settings page of your browser. Search for "new tab", then find the "New tab page" section
-- On the section, find "Use custom URL" and activate the check box
-- Paste this to the input on the right of the check box "file:///D:/newTabPage/index.html"
-- Enjoy it!
+1. Download and extract or clone this project, save it to D drive
+1. Go to settings page of your browser. Search for "new tab", then find the "New tab page" section
+1. On the section, find "Use custom URL" and activate the check box
+1. Paste this to the input on the right of the check box "file:///D:/newTabPage/index.html"
+1. Enjoy it!
+## Extra features
+- Press `Alt + M` to expand hidden menu
 ## Apps used when creating:
 - Adobe Photoshop CC 2018
 - Adobe Illustrator CC 2018

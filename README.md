@@ -28,4 +28,6 @@ Coded and designed by Nguyen Trung Long.
 - [Background Images](https://www.toptal.com/designers/subtlepatterns/)
 ## Notes
 - The "Quan cam's blog" logo is orange to respect the name of the blog
+## New big Update:
+The page using "Ecosia.org" to search. For more information and to know why do I use it, please check [the link](https://info.ecosia.org/)
 # Thanks for your downloads
